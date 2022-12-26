@@ -9,7 +9,12 @@ Running Dependencies:
 * python3
 * spleeter
 * ffmpeg
-
+```
+# install dependencies using conda
+conda install -c conda-forge ffmpeg libsndfile
+# install spleeter using pip
+pip install spleeter
+```
 Additional Compiling Dependencies:
 
 * visual studio (for compiling the code)
