@@ -181,9 +181,9 @@ namespace Main
             }
         }
 
-        private void btnAbout_Click(object sender, EventArgs e)
+        private void btnWebsite_Click(object sender, EventArgs e)
         {
-            new PerfectPitch.frmAbout().ShowDialog();
+            System.Diagnostics.Process.Start("https://github.com/GiladLeef/PerfectPitch");
         }
 
         private void btnStart_Click(object sender, EventArgs e)

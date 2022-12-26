@@ -43,12 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAbout.Designer.cs">
-      <DependentUpon>frmAbout.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -57,9 +51,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAbout.resx">
-      <DependentUpon>frmAbout.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -73,12 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SplashScreen.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\About.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\AboutBG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
