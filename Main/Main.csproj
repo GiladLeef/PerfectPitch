@@ -102,9 +102,9 @@
     <None Include="Resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PerfectPitcher\PerfectPitcher.csproj">
+    <ProjectReference Include="..\PerfectPitch\PerfectPitch.csproj">
       <Project>{cc503a95-26b4-4b99-aa88-db76e1aefb22}</Project>
-      <Name>PerfectPitcher</Name>
+      <Name>PerfectPitch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

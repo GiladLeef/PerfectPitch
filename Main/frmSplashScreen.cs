@@ -28,7 +28,7 @@ namespace Main
 
         private void frmSplashScreen_Load(object sender, EventArgs e)
         {
-            BackgroundImage = PerfectPitcher.Properties.Resources.SplashScreen;
+            BackgroundImage = PerfectPitch.Properties.Resources.SplashScreen;
         }
 
         private void frmSplashScreen_Shown(object sender, EventArgs e)

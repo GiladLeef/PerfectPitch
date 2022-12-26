@@ -56,7 +56,7 @@ namespace Main
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmSplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "P E R F E C T P I T C H E R";
+            this.Text = "P E R F E C T P I T C H";
             this.Load += new System.EventHandler(this.frmSplashScreen_Load);
             this.Shown += new System.EventHandler(this.frmSplashScreen_Shown);
             this.ResumeLayout(false);

@@ -24,7 +24,7 @@ namespace Main
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.Sizable;
             Icon = Icon.ExtractAssociatedIcon(Assembly.GetExecutingAssembly().Location);
-            Text = $"PerfectPitcher v{Application.ProductVersion}";
+            Text = $"PerfectPitch v{Application.ProductVersion}";
 
             bgThread.DoWork += bgThread_DoWork;
             bgThread.RunWorkerCompleted += bgThread_RunWorkerCompleted;
@@ -89,7 +89,7 @@ namespace Main
         {
             if (string.IsNullOrEmpty(Properties.Settings.Default.SavePath))
             {
-                Properties.Settings.Default.SavePath = Path.GetFullPath(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "PerfectPitcher"));
+                Properties.Settings.Default.SavePath = Path.GetFullPath(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "PerfectPitch"));
             }
 
             if (!Directory.Exists(Properties.Settings.Default.SavePath))
@@ -119,8 +119,8 @@ namespace Main
             var w = pbxBanner.Width;
             var h = pbxBanner.Height;
 
-            var b1 = PerfectPitcher.Properties.Resources.Banner;
-            var b2 = PerfectPitcher.Properties.Resources.Banner;
+            var b1 = PerfectPitch.Properties.Resources.Banner;
+            var b2 = PerfectPitch.Properties.Resources.Banner;
             var iW = b1.Width;
             var iH = b1.Height;
 
@@ -181,9 +181,9 @@ namespace Main
             }
         }
 
-        private void btnWebsite_Click(object sender, EventArgs e)
+        private void btnAbout_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/giladleef/perfectpitcher");
+            new PerfectPitch.frmAbout().ShowDialog();
         }
 
         private void btnStart_Click(object sender, EventArgs e)

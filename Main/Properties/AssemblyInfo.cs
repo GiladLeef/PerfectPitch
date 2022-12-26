@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PerfectPitcher")]
-[assembly: AssemblyDescription("Split vocals & music tracks into separated tracks!")]
+[assembly: AssemblyTitle("PerfectPitch")]
+[assembly: AssemblyDescription("Split music into separated tracks!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("PerfectPitcher")]
+[assembly: AssemblyProduct("PerfectPitch")]
 [assembly: AssemblyCopyright("Copyright © 2022 GiladLeef, deezer. All rights reserved.")]
 [assembly: AssemblyTrademark("GiladLeef, deezer, Google TensorFlow, LibROSA.")]
 [assembly: AssemblyCulture("")]
