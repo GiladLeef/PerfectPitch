@@ -232,7 +232,7 @@ namespace Main
             this.lblDuration.Name = "lblDuration";
             this.lblDuration.Size = new System.Drawing.Size(280, 23);
             this.lblDuration.TabIndex = 8;
-            this.lblDuration.Text = "Start Offset + Duration (in seconds):";
+            this.lblDuration.Text = "Starting point + Duration (in seconds):";
             this.lblDuration.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // nudDuration
