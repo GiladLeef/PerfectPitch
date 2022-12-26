@@ -354,7 +354,7 @@ namespace Main
             this.chkSavePath.Name = "chkSavePath";
             this.chkSavePath.Size = new System.Drawing.Size(776, 24);
             this.chkSavePath.TabIndex = 7;
-            this.chkSavePath.Text = "&Save Location (save files on source folder)";
+            this.chkSavePath.Text = "&Set a custom save location (save files on source folder)";
             this.chkSavePath.UseVisualStyleBackColor = true;
             this.chkSavePath.CheckedChanged += new System.EventHandler(this.chkSavePath_CheckedChanged);
             // 
