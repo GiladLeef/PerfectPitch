@@ -309,7 +309,7 @@ namespace Main
             this.lblStem.Name = "lblStem";
             this.lblStem.Size = new System.Drawing.Size(280, 23);
             this.lblStem.TabIndex = 2;
-            this.lblStem.Text = "Audio track to split:";
+            this.lblStem.Text = "Audio tracks to split:";
             this.lblStem.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // cboStem
@@ -354,7 +354,7 @@ namespace Main
             this.chkSavePath.Name = "chkSavePath";
             this.chkSavePath.Size = new System.Drawing.Size(776, 24);
             this.chkSavePath.TabIndex = 7;
-            this.chkSavePath.Text = "&Save Location (files saved at source folder)";
+            this.chkSavePath.Text = "&Save Location (save files on source folder)";
             this.chkSavePath.UseVisualStyleBackColor = true;
             this.chkSavePath.CheckedChanged += new System.EventHandler(this.chkSavePath_CheckedChanged);
             // 

@@ -361,11 +361,11 @@ namespace Main
         {
             if ((sender as CheckBox).Checked)
             {
-                (sender as CheckBox).Text = "&Save Location (files saved at target folder)";
+                (sender as CheckBox).Text = "&Save Location (save files on target folder)";
             }
             else
             {
-                (sender as CheckBox).Text = "&Save Location (files saved at source folder)";
+                (sender as CheckBox).Text = "&Save Location (save files on source folder)";
             }
         }
 
