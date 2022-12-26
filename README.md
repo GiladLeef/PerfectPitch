@@ -13,3 +13,4 @@ Running Dependencies:
 Additional Compiling Dependencies:
 
 * visual studio
+* inno setup (For creating an installer)
