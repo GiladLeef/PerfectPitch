@@ -309,7 +309,7 @@ namespace Main
             this.lblStem.Name = "lblStem";
             this.lblStem.Size = new System.Drawing.Size(280, 23);
             this.lblStem.TabIndex = 2;
-            this.lblStem.Text = "Audio tracks to split:";
+            this.lblStem.Text = "Split audio tracks to:";
             this.lblStem.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // cboStem
