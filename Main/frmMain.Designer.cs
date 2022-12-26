@@ -381,17 +381,6 @@ namespace Main
             this.btnSetSavePath.UseVisualStyleBackColor = true;
             this.btnSetSavePath.Click += new System.EventHandler(this.btnSetSavePath_Click);
             // 
-            // btnWebsite
-            // 
-            this.btnWebsiteAnchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnWebsiteLocation = new System.Drawing.Point(604, 76);
-            this.btnWebsiteName = "btnWebsite";
-            this.btnWebsiteSize = new System.Drawing.Size(100, 32);
-            this.btnWebsiteTabIndex = 2;
-            this.btnWebsiteText = "&Website";
-            this.btnWebsiteUseVisualStyleBackColor = true;
-            this.btnWebsiteClick += new System.EventHandler(this.btnWebsite_Click);
-            // 
             // lblSplit1
             // 
             this.lblSplit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
