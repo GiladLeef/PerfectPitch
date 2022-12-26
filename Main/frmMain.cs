@@ -484,7 +484,7 @@ namespace Main
 
         private void timerGetVersion_Tick(object sender, EventArgs e)
         {
-            Text += $" - Let's separate music!";
+            Text += $" - Let's separate music tracks!";
             timerGetVersion.Stop();
         }
     }
