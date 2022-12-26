@@ -57,7 +57,7 @@ namespace Main
             this.chkSavePath = new System.Windows.Forms.CheckBox();
             this.txtSavePath = new System.Windows.Forms.TextBox();
             this.btnSetSavePath = new System.Windows.Forms.Button();
-            this.btnAbout = new System.Windows.Forms.Button();
+            this.btnWebsite = new System.Windows.Forms.Button();
             this.lblSplit1 = new System.Windows.Forms.Label();
             this.timerGetVersion = new System.Windows.Forms.Timer(this.components);
             this.lblSplit2 = new System.Windows.Forms.Label();
@@ -381,16 +381,16 @@ namespace Main
             this.btnSetSavePath.UseVisualStyleBackColor = true;
             this.btnSetSavePath.Click += new System.EventHandler(this.btnSetSavePath_Click);
             // 
-            // btnAbout
+            // btnWebsite
             // 
-            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAbout.Location = new System.Drawing.Point(604, 76);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(100, 32);
-            this.btnAbout.TabIndex = 2;
-            this.btnAbout.Text = "&About";
-            this.btnAbout.UseVisualStyleBackColor = true;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            this.btnWebsiteAnchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnWebsiteLocation = new System.Drawing.Point(604, 76);
+            this.btnWebsiteName = "btnWebsite";
+            this.btnWebsiteSize = new System.Drawing.Size(100, 32);
+            this.btnWebsiteTabIndex = 2;
+            this.btnWebsiteText = "&About";
+            this.btnWebsiteUseVisualStyleBackColor = true;
+            this.btnWebsiteClick += new System.EventHandler(this.btnWebsite_Click);
             // 
             // lblSplit1
             // 
@@ -433,7 +433,7 @@ namespace Main
             this.Controls.Add(this.lblLink);
             this.Controls.Add(this.lblSplit2);
             this.Controls.Add(this.lblSplit1);
-            this.Controls.Add(this.btnAbout);
+            this.Controls.Add(this.btnWebsite);
             this.Controls.Add(this.btnSetSavePath);
             this.Controls.Add(this.txtSavePath);
             this.Controls.Add(this.chkSavePath);
@@ -492,7 +492,7 @@ namespace Main
         private System.Windows.Forms.NumericUpDown nudDuration;
         private System.Windows.Forms.Label lblBitRate;
         private System.Windows.Forms.ComboBox cboBitRate;
-        private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnWebsite;
         private System.Windows.Forms.Label lblSplit1;
         private System.Windows.Forms.Timer timerGetVersion;
         private System.Windows.Forms.Label lblSplit2;
