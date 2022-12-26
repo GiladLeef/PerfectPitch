@@ -388,7 +388,7 @@ namespace Main
             this.btnWebsiteName = "btnWebsite";
             this.btnWebsiteSize = new System.Drawing.Size(100, 32);
             this.btnWebsiteTabIndex = 2;
-            this.btnWebsiteText = "&About";
+            this.btnWebsiteText = "&Website";
             this.btnWebsiteUseVisualStyleBackColor = true;
             this.btnWebsiteClick += new System.EventHandler(this.btnWebsite_Click);
             // 
