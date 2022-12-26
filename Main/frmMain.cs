@@ -484,7 +484,7 @@ namespace Main
 
         private void timerGetVersion_Tick(object sender, EventArgs e)
         {
-            Text += $" ({ProcessManager.GetVersion()}) - Let's split vocals and music!";
+            Text += $" - Let's separate music!";
             timerGetVersion.Stop();
         }
     }
