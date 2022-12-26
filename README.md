@@ -12,4 +12,4 @@ Running Dependencies:
 
 Additional Compiling Dependencies:
 
-* Visual Studio
+* visual studio
