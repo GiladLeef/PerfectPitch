@@ -1,6 +1,6 @@
 # Welcome to PerfectPitch
 
-PerfectPitch is the best performing music separation tool out there, with the backend & models of [spleeter](https://github.com/deezer/spleeter).
+PerfectPitch is a music separation tool, with the backend & models of [spleeter](https://github.com/deezer/spleeter).
 
 ![PerfectPitch](https://user-images.githubusercontent.com/96906027/209585247-3bd9dc9d-f4a1-46ed-87c6-47bab2db92c3.png)
 
